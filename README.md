@@ -28,6 +28,8 @@ todo-bot/
 ├── alembic.ini
 ├── README.md
 ├── main.py
+├── Dockerfile
+├── docker-compose.yml
 ├── .gitignore
 ├── requirements.txt
 ```
@@ -45,6 +47,8 @@ todo-bot/
 - alembic.ini: Конфигурация перегонного куба (если используется).
 - README.md: Документация о проекте.
 - requirements.txt: Список библиотек используемых в проекте
+- DockerfileL: сценарий, который содержит инструкции для создания Docker-образа приложения. 
+- docker-compose.yml: файл конфигурации для Docker Compose, который упрощает создание и управление многоконтейнерными приложениями.
 
 # Конечные точки
 
